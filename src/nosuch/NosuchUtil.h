@@ -28,6 +28,8 @@
 #ifndef NOSUCHUTIL_H
 #define NOSUCHUTIL_H
 
+#define HAVE_STRUCT_TIMESPEC
+
 #include <stdint.h>
 #include <pthread.h>
 #include "NosuchDebug.h"

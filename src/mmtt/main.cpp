@@ -33,7 +33,7 @@
 #include <direct.h>
 #include <math.h>
 #include "mmsystem.h"
-#include "pthread.h"
+
 #include "porttime.h"
 
 #include "resource.h"

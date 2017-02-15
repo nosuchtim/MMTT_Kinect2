@@ -37,11 +37,11 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
  
-#include <pthread.h>
+#include "NosuchUtil.h"
+
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
 
-#include "NosuchDebug.h"
 #include "NosuchSocket.h"
 #include "NosuchHttpServer.h"
 #include "mmsystem.h"

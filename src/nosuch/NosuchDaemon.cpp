@@ -31,7 +31,6 @@
 #include "NosuchOscManager.h"
 #include "NosuchHttpServer.h"
 #include "NosuchDaemon.h"
-#include <pthread.h>
 
 void *network_threadfunc(void *arg)
 {

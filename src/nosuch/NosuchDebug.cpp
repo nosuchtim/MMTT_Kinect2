@@ -32,6 +32,7 @@
 #include "tstring.h"
 
 #include "porttime.h"
+#define HAVE_STRUCT_TIMESPEC
 #include "pthread.h"
 #include "cJSON.h"
 
