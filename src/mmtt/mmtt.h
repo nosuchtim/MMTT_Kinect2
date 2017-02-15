@@ -30,7 +30,7 @@
 
 #include <opencv/cv.h>
 #include "mmtt_depth.h"
-#include "mmtt_camera.h"
+#include "mmtt_kinect2.h"
 
 #include <vector>
 #include <map>

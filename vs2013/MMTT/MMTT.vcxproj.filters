@@ -219,9 +219,6 @@
     <ClCompile Include="..\..\other\portmidi\porttime\ptwinmm.c">
       <Filter>Source Files\portmidi\porttime</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\mmtt\mmtt_realsense.cpp">
-      <Filter>Source Files\mmtt</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutDirectX.cpp">
       <Filter>Source Files\Spout2</Filter>
     </ClCompile>
@@ -288,53 +285,47 @@
     <ClInclude Include="..\..\src\mmtt\mmtt.h">
       <Filter>Header Files\mmtt</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\mmtt\mmtt_camera.h">
-      <Filter>Header Files\mmtt</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\mmtt\mmtt_depth.h">
       <Filter>Header Files\mmtt</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\mmtt\mmtt_realsense.h">
-      <Filter>Header Files\mmtt</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutSharedMemory.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutSenderNames.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutSender.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutSDK.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutReceiver.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutMemoryShare.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutGLextensions.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutGLDXinterop.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutDirectX.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\SpoutCommon.h">
-      <Filter>Header Files\Spout2</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\other\Spout2\SpoutSDK\Source\Spout.h">
-      <Filter>Header Files\Spout2</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\mmtt\mmtt_sharedmem.h">
       <Filter>Header Files\mmtt</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\nosuch\sha1.h">
       <Filter>Header Files\nosuch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\Spout.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutCommon.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutDirectX.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutGLDXinterop.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutGLextensions.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutMemoryShare.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutReceiver.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutSDK.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutSender.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutSenderNames.h">
+      <Filter>Header Files\Spout2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\other\Spout2\SPOUTSDK\SpoutSDK\SpoutSharedMemory.h">
+      <Filter>Header Files\Spout2</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

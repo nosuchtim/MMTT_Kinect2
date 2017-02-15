@@ -25,9 +25,7 @@
 	WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "mmtt_camera.h"
-
-#ifdef KINECT2_CAMERA
+#include "mmtt_kinect2.h"
 
 #include "stdafx.h"
 #include "Kinect.h"
@@ -465,5 +463,3 @@ Kinect2DepthCamera::colorimage() {
 
 void Kinect2DepthCamera::Shutdown() {
 }
-
-#endif

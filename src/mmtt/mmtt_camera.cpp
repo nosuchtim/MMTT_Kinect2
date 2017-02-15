@@ -25,19 +25,10 @@
 	WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "mmtt_camera.h"
+#include "mmtt_kinect2.h"
 #include "mmtt.h"
 
 DepthCamera* DepthCamera::makeDepthCamera(MmttServer* s, std::string camtype, int camnum, int camwidth, int camheight) {
-#ifdef REALSENSE_CAMERA
-	if ( camtype == "realsense" ) {
-		return new RealsenseDepthCamera(s,camnum,camwidth,camheight);
-	}
-#endif
-#ifdef KINECT2_CAMERA
-	if ( camtype == "kinect2" ) {
-		return new Kinect2DepthCamera(s);
-	}
-#endif
+	return new Kinect2DepthCamera(s);
 	return NULL;
 }

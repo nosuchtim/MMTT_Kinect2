@@ -28,15 +28,6 @@
 #ifndef MMTT_CAMERA_H
 #define MMTT_CAMERA_H
 
-// #define REALSENSE_CAMERA
-#define KINECT2_CAMERA
-
-#ifdef REALSENSE_CAMERA
-#include "mmtt_realsense.h"
-#endif
-
-#ifdef KINECT2_CAMERA
 #include "mmtt_kinect2.h"
-#endif
 
 #endif
