@@ -37,16 +37,10 @@ local.properties
 
 # User-specific files
 *.suo
-*.user
 *.sln.docstates
 
 # Build results
-
-[Dd]ebug/
-[Rr]elease/
-x64/
-build/
-[Oo]bj/
+*.tlog
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -227,3 +221,4 @@ src/mmtt_leap
 vs2012/mmtt_leap
 vs2013/mmtt_leap
 
+bin/mmtt_kinect2.exe

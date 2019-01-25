@@ -28,6 +28,8 @@
 #ifndef MMTT_H
 #define MMTT_H
 
+#define USE_SPOUT
+
 #include <opencv/cv.h>
 #include "mmtt_depth.h"
 #include "mmtt_kinect2.h"

@@ -44,7 +44,9 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 
+#ifdef USE_SPOUT
 #include "spout.h"
+#endif
 
 #pragma comment(lib, "opengl32.lib")
 #pragma comment(lib, "glu32.lib")
